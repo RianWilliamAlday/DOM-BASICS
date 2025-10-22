@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.body {
+    @apply bg-blue-400 font-serif
+}
+
+.title {
+    @apply text-center text-2xl font-bold
+}
+
+.container {
+    @apply bg-green-300 rounded-lg p-6 m-6 shadow-md
+}
+
+.grid {
+    @apply grid grid-cols-4 gap-8 rounded-lg p-4 m-4
+}
+
+.grid-child{
+    @apply bg-green-500 p-2 rounded-xl shadow-sm;
+}
