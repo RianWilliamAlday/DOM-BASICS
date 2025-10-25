@@ -5,17 +5,25 @@
 }
 
 .title {
-    @apply text-center text-2xl font-bold
+    @apply text-center text-4xl font-bold
+}
+
+.title2 {
+    @apply text-white text-center text-2xl font-bold text-shadow-lg
+}
+
+.main-container {
+    @apply flex gap-4
 }
 
 .container {
-    @apply bg-green-300 rounded-lg p-6 m-6 shadow-md
+    @apply bg-green-300 rounded-lg p-6 m-6 shadow-md 
 }
 
 .grid {
-    @apply grid grid-cols-4 gap-8 rounded-lg p-4 m-4
+    @apply grid grid-cols-3 gap-8 rounded-lg p-1 m-4
 }
 
 .grid-child{
-    @apply bg-green-500 p-2 rounded-xl shadow-sm;
+    @apply bg-blue-500 p-2 rounded-xl shadow-sm hover:scale-110 transition duration-150 ease-in hover:text-white hover:text-shadow-lg hover:bg-blue-700 hover:underline
 }
